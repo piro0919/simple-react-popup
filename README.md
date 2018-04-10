@@ -1,6 +1,6 @@
 # simple-react-popup
 
-simple-react-popup makes it easy to pop up the react component.
+[simple-react-popup](https://www.npmjs.com/package/simple-react-popup) makes it easy to pop up the react component.
 
 ## Example
 
