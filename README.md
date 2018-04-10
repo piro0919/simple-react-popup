@@ -37,7 +37,7 @@ export default Sample;
 interface Props {
   // Popup Target
   children: React.ReactNode;
-  // Add Parent Dom Of Popup Target
+  // Add className to Parent Dom Of Popup Target
   className?: string;
   // Popup Contents
   contents: JSX.Element;
