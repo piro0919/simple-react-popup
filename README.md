@@ -1,56 +1,39 @@
 # simple-react-popup
 
-[simple-react-popup](https://www.npmjs.com/package/simple-react-popup) makes it easy to pop up the react component.
+> Simple React popup component.
 
-## Example
+[🔗 npm](https://www.npmjs.com/package/simple-react-popup)
 
-[CodeSandbox](https://codesandbox.io/s/w67j900w8l)
-
-## Description
+## 📦 Install
 
 ```bash
-import React from 'react';
-import SimpleReactPopup from 'simple-react-popup';
-
-class Sample extends React.Component {
-  render() {
-    const popupContents = (
-      <div>
-        hello world!
-      </div>
-    );
-
-    return (
-      <SimpleReactPopup contents={popupContents}>
-        popup target
-      </SimpleReactPopup>
-    );
-  }
-}
-
-export default Sample;
+npm install simple-react-popup
 ```
 
-## Options
+## 🚀 Usage
 
-```bash
-interface Props {
-  // Popup Target
-  children: React.ReactNode;
-  // Add className to Parent Dom Of Popup Target
-  className?: string;
-  // Popup Contents
-  contents: JSX.Element;
-  // Transition Duration (defined in milliseconds)
-  transition?: number;
+```tsx
+import SimpleReactPopup from "simple-react-popup";
+
+function App() {
+  const popupContents = <div>hello world!</div>;
+
+  return (
+    <SimpleReactPopup contents={popupContents}>
+      popup target
+    </SimpleReactPopup>
+  );
 }
 ```
 
-## Remaining Task
+## 🧪 Demo
 
-- Can apply styles from options.
-- Not use jquery.
+Try it on [CodeSandbox](https://codesandbox.io/s/w67j900w8l).
 
-## Author
+## 📌 Status
 
-[piro](https://github.com/piro0919)
+This package targets React class components and is no longer under active development. For newer projects, consider modern alternatives such as [Radix UI Popover](https://www.radix-ui.com/primitives/docs/components/popover).
+
+## 📄 License
+
+MIT
