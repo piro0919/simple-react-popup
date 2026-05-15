@@ -1,5 +1,11 @@
+node_modules/
+dist/
+.next/
+next-env.d.ts.bak
+coverage/
+*.tsbuildinfo
+.vscode/
+*.log
 .DS_Store
-build
-npm-debug.log
-node_modules
-package-lock.json
+.env
+.env.*

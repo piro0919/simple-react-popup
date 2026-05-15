@@ -4,4 +4,4 @@ export {
   type TriggerProps,
   type ContentProps,
   type CloseProps,
-} from "./components/SimpleReactPopup";
+} from "./SimpleReactPopup";
