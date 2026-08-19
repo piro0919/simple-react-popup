@@ -1,6 +1,6 @@
 {
   "name": "simple-react-popup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Headless, compound popup component for React with portal, ESC, scroll lock, and focus trap.",
   "keywords": [
     "react",
