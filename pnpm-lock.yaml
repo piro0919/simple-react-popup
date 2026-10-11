@@ -54,7 +54,7 @@ importers:
         specifier: ^25.0.1
         version: 25.0.1
       lefthook:
-        specifier: ^2.2.0
+        specifier: ^2.2.1
         version: 2.2.1
       next:
         specifier: ^16.4.0
@@ -727,7 +727,7 @@ packages:
     os: [win32]
 
   '@piro0919/eslint-config@https://codeload.github.com/piro0919/eslint-config/tar.gz/6f2b5e61367daa759c9035d8ea59a7c014abc543':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/piro0919/eslint-config/tar.gz/6f2b5e61367daa759c9035d8ea59a7c014abc543}
+    resolution: {gitHosted: true, integrity: sha512-Jy9gxrIkBtJF8ZL/L5L0grG6Ht+1oNM8HCPvyUwR8TMJlcnZW90+1GVdIglAY/v+PW7tZJh8TwhinIFVY0Hz2g==, tarball: https://codeload.github.com/piro0919/eslint-config/tar.gz/6f2b5e61367daa759c9035d8ea59a7c014abc543}
     version: 1.0.0
     peerDependencies:
       eslint: ^9.0.0 || ^10.0.0
